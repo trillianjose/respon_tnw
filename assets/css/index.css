@@ -519,5 +519,41 @@
     width: 80%;
     height: 60%;
     background-color: #595b59;
-    margin: auto auto;
+    margin: 0 auto;
+}
+.main-footer-f{
+    width: 50%;
+    height: 2rem;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+.footer-list-f-content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.footer-f-list{
+    width: 10%;
+}
+.main-footer-s{
+    width: 70%;
+    height: 2rem;
+    margin: 0 auto;
+}
+.footer-list-s-content{
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    font-size: 60%;
+}
+.footer-s-list{
+    width: 30px;
+}
+.footer-second{
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+span{
+    color: aliceblue;
 }

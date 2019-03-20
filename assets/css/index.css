@@ -512,41 +512,12 @@
 /*----footer----*/
 .main-footer{
     width: 100%;
-    height: auto;
+    height: 12rem;
     background-color: #232222;
 }
-.main-footer-f{
-    width: 30%;
-    height: 50%;
-    margin: 0 auto;
-}
-.footer-f-list{
-    width: 12%;
-    height: 50%;
-}
-.footer-list-content{
-    padding-top: 2%;
-}
-.main-footer-s{
-    width:40%;
-    height: 50%;
-    margin: 0 auto;
-}
-.footer-s-list{
-    width: auto;
-    height: 100%;
-    float: left;
-    margin: 2.1% .75rem ;
-}
-.footer-list-s-content::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-.main-footer-link{
-    text-decoration: none;
-    color: #595b59;
-}
-.main-footer-link:hover {
-    color: white;
+.footer-first{
+    width: 80%;
+    height: 60%;
+    background-color: #595b59;
+    margin: auto auto;
 }

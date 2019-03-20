@@ -64,7 +64,15 @@
         background-image: url("https://i.ytimg.com/vi/2K_fMCfhpcI/maxresdefault.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding-top: 15%;
+        position: relative;
+    }
+    .item1-content{
+        bottom: 0;
+        left: 0;
+        padding: 7px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
     }
     .item-par{
         color: black;
@@ -125,7 +133,7 @@
     .main-middle{
         display: grid;
         grid-template-columns: auto;
-        grid-template-rows: 3rem;
+        grid-template-rows: 5rem;
         grid-gap: 8px;
     }
 
@@ -167,7 +175,74 @@
         color: black;
         font-weight: bold;
     }
-
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 12px;
+        background-color: aquamarine;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
+    }
 }
 /*---tab---*/
 @media only screen and (min-width : 768px) and (max-width : 1023px) {
@@ -335,6 +410,75 @@
     .item-m-link:hover {
         color: black;
         font-weight: bold;
+    }
+
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        background-color: aquamarine;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
     }
 }
 
@@ -505,7 +649,74 @@
         color: black;
         font-weight: bold;
     }
-
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+        background-color: aquamarine;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
+    }
     
     /*----media @ 600px----*/
 }
@@ -547,7 +758,7 @@
     font-size: 60%;
 }
 .footer-s-list{
-    width: 30px;
+    /*width: 30px;*/
 }
 .footer-second{
     width: 80%;

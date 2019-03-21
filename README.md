@@ -17,4 +17,4 @@
 ---
 # Live Demo
 
-Click [here](https://raw.githack.com/trillianjose/respon_tnw/development/index.html) to see the latest updates
+Click [here](https://trillianjose.github.io/respon_tnw/) to see the latest updates

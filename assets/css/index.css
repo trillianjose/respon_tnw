@@ -1,0 +1,935 @@
+/*----Common---*/
+.w-full{
+    width: 100%;
+}
+.w-full-height{
+    height: 100%;
+}
+.d-flex{
+    display: flex;
+}
+.d-sp-bt{
+    justify-content: space-between;
+}
+.text-align-center{
+    text-align: center;
+}
+body,html{
+    font-family: 'Oswald', sans-serif;
+}
+/*----All box sizing----*/
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+@media only screen and (min-width : 320px) and (max-width : 767px) {
+    /*---header---*/
+    .header-main {
+        width: 100%;
+        height: 4rem;
+        background-color: #232222;
+    }
+    .nav-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .nav-icon{
+        display:inline-block;
+        border: none;
+        width: 10%;
+        margin-right: 5%;
+        color: #aa360b;
+    }
+    .nav-logo{
+        width: 9%;
+        height: 100%;
+    }
+    .nw-logo{
+        width: 100%;
+        height: 100%;
+    }
+    .nav-list{
+        display: none;
+    }
+    /*---main top---*/
+    .main-top{
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 5px;
+    }
+    .item1{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://i.ytimg.com/vi/2K_fMCfhpcI/maxresdefault.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    .item1-content{
+        bottom: 0;
+        left: 0;
+        padding: 7px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+    }
+    .item-par{
+        color: black;
+        font-weight: bolder;
+        font-size: 75%;
+    }
+    .item-h{
+        color: black;
+        font-weight: bolder;
+        font-size: 125%;
+    }
+    .item-link{
+        color: black;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .item-link:hover {
+        color: burlywood;
+        font-weight: bold;
+    }
+    .item2 {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/ausbitcoin-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rest-item-top-h{
+        color: white;
+        font-size: 1.4rem;
+    }
+    .item2-content{
+        margin-top: 28%;
+    }
+
+    .item3{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Untitled-design-9-796x417.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .item3-content{
+        margin-top: 20%;
+    }
+     /*----body middle----*/
+    .body-middle{
+        width: 80%;
+        margin: auto;
+    }
+    .body-middle-header{
+        font-size: 120%;
+    }
+    .body-middle-header-link{
+        color: #aa360b;
+        text-decoration: none;
+    }
+    .body-middle-header-link:hover {
+        color: black;
+        font-size: bold;
+    }
+    .main-middle{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 5rem;
+        grid-gap: 8px;
+    }
+
+    .item-m{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .item-m-img{
+        width: 20%;
+        height: 100%;
+    }
+    .item-img{
+        width: 100%;
+        height: 100%;
+    }
+    .item-m-content{
+        width: 75%;
+        height: auto;
+    }
+    .item-m-content-h{
+        width: 100;
+        font-size: 100%;
+    }
+    .item-m-content-h:hover {
+        color: #aa360b;
+    }
+    .item-m-content-p{
+        width: 100%;
+    }
+    .item-m-link{
+        width: 100%;
+        color: #595b59;
+        font-weight: 400;
+        font-size: 80%;
+        text-decoration: none;
+    }
+    .item-m-link:hover {
+        color: black;
+        font-weight: bold;
+    }
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        padding-top: 16px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        grid-gap: 12px;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+        padding-bottom: 10px;
+        color: #aa360b;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
+    }
+
+    /*----footer----*/
+    .main-footer{
+        width: 100%;
+        height: 12rem;
+        background-color: black;
+    }
+    .footer-first{
+        width: 100%;
+        margin: 15px auto;
+        background-color: #0f1319;
+    }
+     .main-footer-f{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .footer-list-f-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-f-list{
+        display: inline;
+        padding-right: 5px;
+    }
+    .main-footer-link{
+        color: aliceblue;
+    }
+    .main-footer-s{
+        width:100%;
+        margin: 5px 0;
+    }
+    .footer-list-s-content{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .footer-s-list{
+        display: inline;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .main-footer-link-s{
+        color: #9fa2a8;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .main-footer-link-s:hover {
+        color: white;
+        font-weight: bolder;
+    }
+    .footer-second{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        color: #9fa2a8
+    }
+    strong{
+        color: white;
+        font-weight: bolder;
+    }
+    span{
+        color: red;
+    } 
+}
+/*---finish of mobile view----*/
+/*---tab---*/
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+    /*---header---*/
+    .header-main {
+        width: 100%;
+    }
+    .nav-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .nav-icon{
+        display:none;
+    }
+    .nav-logo{
+        width: 9%;
+        height: 100%;
+    }
+    .nw-logo{
+        width: 100%;
+        height: 100%;
+    }
+
+    /* .main-footer-s{
+        width:100%;
+        margin: 5px 0;
+    }
+    .footer-list-s-content{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .footer-s-list{
+        display: inline;
+        padding-right: 5px;
+        font-size: 12px;
+    } */
+    .nav-list{
+        width:100%;
+        margin: 5px 5px;
+    }
+    .clearfix{
+        padding: 10px 0;
+    }
+    .nav-element{
+        display: inline;
+        padding-right: 5px;
+        font-size: 15px;
+    }
+    .nav-element:hover {
+        color: black;
+    }
+    .nav-li-a{
+        color: #595b59;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .nav-li-a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    /*---main top---*/
+    .main-top{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 15rem 15rem;
+        grid-gap: 10px;
+    }
+    .item1 {
+        grid-row: 1 / span 2;
+        grid-column: 1 / span 2;
+        background-image: url("https://i.ytimg.com/vi/2K_fMCfhpcI/maxresdefault.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30%;
+    }
+    .item-par{
+        color: white;
+        font-size: 1rem;
+    }
+    .item-h{
+        color: white;
+        font-size: 2.8rem;
+    }
+    .item-link{
+        color: white;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .item-link:hover {
+        color: burlywood;
+        font-weight: bold;
+    }
+
+    .item2 {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/ausbitcoin-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rest-item-top-h{
+        color: white;
+        font-size: 1.4rem;
+    }
+    .item2-content{
+        margin-top: 28%;
+    }
+
+    .item3{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Untitled-design-9-796x417.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .item3-content{
+        margin-top: 20%;
+    }
+
+     /*----body middle----*/
+     .body-middle{
+        width: 80%;
+        margin: auto;
+    }
+    .body-middle-header{
+        font-size: 120%;
+    }
+    .body-middle-header-link{
+        color: #aa360b;
+        text-decoration: none;
+    }
+    .body-middle-header-link:hover {
+        color: black;
+        font-size: bold;
+    }
+    .main-middle{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 18rem;
+        grid-gap: 3px;
+    }
+
+    .item-m{
+        width: 100%;
+        height: 100%;
+    }
+    .item-m-img{
+        width: 100%;
+        height:65%;
+    }
+    .item-img{
+        width: 100%;
+        height: 100%;
+    }
+    .item-m-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-m-content-h{
+        width: 100;
+        height: 75%;
+        font-size: 100%;
+    }
+    .item-m-content-h:hover {
+        color: #aa360b;
+    }
+    .item-m-content-p{
+        width: 100%;
+        height: 20%;
+    }
+    .item-m-link{
+        width: 100%;
+        height: 100%;
+        color: #595b59;
+        font-weight: 400;
+        font-size: 80%;
+        text-decoration: none;
+    }
+    .item-m-link:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+        padding-bottom: 10px;
+        color: #aa360b;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .sec-item-head-h{
+        letter-spacing: -1px;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
+    }
+    /*----footer----*/
+    .main-footer{
+        width: 100%;
+        height: 12rem;
+        background-color: black;
+    }
+    .footer-first{
+        width: 100%;
+        margin: 15px auto;
+        background-color: #0f1319;
+    }
+     .main-footer-f{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .footer-list-f-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-f-list{
+        display: inline;
+        padding-right: 5px;
+    }
+    .main-footer-link{
+        color: aliceblue;
+    }
+    .main-footer-s{
+        width:100%;
+        margin: 5px 0;
+    }
+    .footer-list-s-content{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .footer-s-list{
+        display: inline;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .main-footer-link-s{
+        color: #9fa2a8;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .main-footer-link-s:hover {
+        color: white;
+        font-weight: bolder;
+    }
+    .footer-second{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        color: #9fa2a8
+    }
+    strong{
+        color: white;
+        font-weight: bolder;
+    }
+    span{
+        color: red;
+    }
+}
+
+@media only screen  and (min-width : 1024px) {
+    /*---header---*/
+    .header-main {
+        width: 100%;
+        height: 4rem;
+    }
+    .nav-content{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .nav-icon{
+        display:none;
+    }
+    .nav-logo{
+        width: 9%;
+        height: 100%;
+    }
+    .nw-logo{
+        width: 100%;
+        height: 100%;
+    }
+    .nav-list{
+        width: 80%;
+        height: 100%;
+    }
+    .nav-element{
+        width: auto;
+        height: 100%;
+        float: left;
+        margin: 2.1% .75rem ;
+    }
+    .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    .nav-li-a{
+        color: #595b59;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .nav-li-a:hover {
+        color: black;
+        font-weight: bold;
+    }
+
+    /*---main--*/
+
+    .main-top{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 15rem 15rem;
+        grid-gap: 10px;
+    }
+    .item1 {
+        grid-row: 1 / span 2;
+        grid-column: 1 / span 2;
+        background-image: url("https://i.ytimg.com/vi/2K_fMCfhpcI/maxresdefault.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding-top: 30%;
+    }
+    .item-par{
+        color: white;
+        font-size: 1rem;
+    }
+    .item-h{
+        color: white;
+        font-size: 2.8rem;
+    }
+    .item-link{
+        color: white;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .item-link:hover {
+        color: burlywood;
+        font-weight: bold;
+    }
+
+    .item2 {
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/ausbitcoin-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .rest-item-top-h{
+        color: white;
+        font-size: 1.4rem;
+    }
+    .item2-content{
+        margin-top: 28%;
+    }
+
+    .item3{
+        background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/03/Untitled-design-9-796x417.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .item3-content{
+        margin-top: 20%;
+    }
+
+    /*----body middle----*/
+    .body-middle{
+        width: 80%;
+        margin: auto;
+    }
+    .body-middle-header{
+        font-size: 1.5rem;
+    }
+    .body-middle-header-link{
+        color: #aa360b;
+        text-decoration: none;
+    }
+    .body-middle-header-link:hover {
+        color: black;
+        font-size: bold;
+    }
+    .main-middle{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: 15rem 15rem;
+        grid-gap: 15px;
+    }
+    .item-m{
+        width: 100%;
+        height: 100%;
+    }
+    .item-m-img{
+        width: 100%;
+        height:65%;
+    }
+    .item-img{
+        width: 100%;
+        height: 100%;
+    }
+    .item-m-content{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .item-m-content-h{
+        width: 100;
+        height: 75%;
+        font-size: 100%;
+    }
+    .item-m-content-h:hover {
+        color: #aa360b;
+    }
+    .item-m-content-p{
+        width: 100%;
+        height: 20%;
+    }
+    .item-m-link{
+        width: 100%;
+        height: 100%;
+        color: #595b59;
+        font-weight: 400;
+        font-size: 80%;
+        text-decoration: none;
+    }
+    .item-m-link:hover {
+        color: black;
+        font-weight: bold;
+    }
+    /*----second-body----*/
+    .sec-body{
+        width: 85%;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto;
+        grid-gap: 5px;
+    }
+    .sec-item{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .sec-item-head{
+        width: 100%;
+        padding-bottom: 10px;
+        color: #aa360b;
+        font-size: 25px;
+        font-weight: bold;
+    }
+    .sec-body-content{
+        width: 100%;
+        height: 10rem;
+        background-image: url("https://btcmanager.com/wp-content/uploads/2018/01/Is-Kim-Jong-Un-Behind-Bitcoin-Price-Gains.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right bottom;
+        position: relative;
+    }
+    .sec-body-content-element{
+        bottom: 0;
+        left: 0;
+        padding: 14px;
+        position: absolute;
+        right: 0;
+        z-index: 3;
+        color: aliceblue;
+    }
+    .sec-content-body{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sec-content-body-element{
+        width: 70%;
+        margin: auto 0;
+        color: #aa360b;
+        font-weight: bolder;
+    }
+    .sec-content-body-imgc{
+        width: 20%;
+        background-color: #aa360b;
+    }
+    .sec-content-body-img{
+        width: 100%;
+        height: 100%;
+    }
+    .sec-body-list{
+        width: 95%;
+        margin-top: 3px;
+        margin: 0 auto;
+    }
+    .sec-body-list-content{
+        width: 100%;
+        margin-top: 3px;
+        list-style-type: circle;
+    }
+    .sec-body-list-content-element{
+        margin-top: 3px;
+        color: #595b59;
+    }
+    
+    /*----footer----*/
+    .main-footer{
+        width: 100%;
+        height: 12rem;
+        background-color: black;
+    }
+    .footer-first{
+        width: 100%;
+        margin: 15px auto;
+        background-color: #0f1319;
+    }
+     .main-footer-f{
+        width: 100%;
+        margin: 5px 0;
+    }
+    .footer-list-f-content{
+        padding-top: 10px;
+        text-align: center;
+    }
+    .footer-f-list{
+        display: inline;
+        padding-right: 5px;
+    }
+    .main-footer-link{
+        color: aliceblue;
+    }
+    .main-footer-s{
+        width:100%;
+        margin: 5px 0;
+    }
+    .footer-list-s-content{
+        padding: 10px 0;
+        text-align: center;
+    }
+    .footer-s-list{
+        display: inline;
+        padding-right: 5px;
+        font-size: 12px;
+    }
+    .main-footer-link-s{
+        color: #9fa2a8;
+        font-weight: 400;
+        text-decoration: none;
+    }
+    .main-footer-link-s:hover {
+        color: white;
+        font-weight: bolder;
+    }
+    .footer-second{
+        width: 80%;
+        text-align: center;
+        margin: 0 auto;
+        color: #9fa2a8
+    }
+    strong{
+        color: white;
+        font-weight: bolder;
+    }
+    span{
+        color: red;
+    }    
+}
